@@ -71,6 +71,6 @@
             'fix' => 'fest',
             'variable' => 'variabel',
             'So far no events for this month.' => 'Bisher keine Veranstaltungen für diesen Monat.',
-            'MarkDown synthax supported.' => 'MarkDown Syntax wird unterstützt.',
+            'MarkDown syntax supported.' => 'MarkDown Syntax wird unterstützt.',
         )
     );
