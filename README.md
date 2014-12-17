@@ -21,6 +21,10 @@ the other style sheets are included:
 
     <?php Stylesheet::add('plugins/calendar/css/frontend/calendar.css', 'frontend', 4); ?>
 
+After inserting this line please delete temporary files:  
+    
+    System -> Settings -> Delete Temporary Files
+
 ## Usage  
 ### Slug
 Once installed the calendar can be accessed through *slug* "calendar".  
