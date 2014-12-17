@@ -6,18 +6,3 @@
     <a href='index.php?id=calendar&amp;action=evtshow&amp;csrf=<?php echo $token; ?>' class='btn btn-phone btn-default'><?php echo __('Edit Event', 'eventcal'); ?></a>&nbsp;&nbsp;&nbsp;
     <a href='index.php?id=calendar&amp;action=holishow&amp;csrf=<?php echo $token; ?>' class='btn btn-phone btn-default'><?php echo __('Edit Holiday', 'eventcal'); ?></a>
 </div><br /><hr />
-<script lang="text/javascript">
-<!--
-/**
- * goto url on button click
- * @param {string} where
- * @param {string} token
- * @returns --
- */
-function goTo(where, token)
-{
-    window.location = where + '&csrf=' + token;
-}
-// -->
-</script>
-<?php 
