@@ -27,7 +27,7 @@
                 <td><label for='descr'><?php echo __('Description', 'eventcal'); ?>:<label></td>
                 <td>
                     <textarea name='descr' id='descr' rows='5' cols='80'><?php echo Arr::get($event, 'descr'); ?></textarea>
-                    <div><a href='http://daringfireball.net/projects/markdown/syntax' target='_blank'><?php echo __('MarkDown synthax supported.', 'eventcal'); ?></a></div>
+                    <div><a href='http://daringfireball.net/projects/markdown/syntax' target='_blank'><?php echo __('MarkDown syntax supported.', 'eventcal'); ?></a></div>
                 </td>
             </tr>
             <tr>
