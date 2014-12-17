@@ -1,0 +1,125 @@
+/* 
+    Created on : 03.12.2014, 15:22:52
+    Author     : joergn
+*/
+
+table.month {
+    width: 162px;
+    margin: auto;
+    border: 1px solid #036;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #eee;
+    color: #444;
+}
+
+table.month tr > th, table.cal-layout tr > th {
+    background-color: #58b;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #036;
+}
+
+table.month tr > th > a {
+    color: white;
+}
+
+table.month tr > th > a:hover {
+    color: #FFDE5A;
+}
+
+table.month tr > td {
+    text-align: right;
+    border: 1px solid #036;
+    padding: 1.5px;
+}
+
+table.month tr > td.bold {
+    font-weight: bold;
+}
+
+table.month tr > td.sat {
+    color: blue;
+}
+
+table.month tr > td.sun {
+    color: #800;
+}
+
+table.month tr > td.holiday {
+    color: red;
+    font-weight: bold;
+}
+
+table.month tr > td.holiday > a {
+    color: red;
+}
+
+table.month tr > td.event {
+    background-color: #FFDE5A;
+}
+
+table.cal-layout {
+    width: 100%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table.cal-layout tr > td.yearcal {
+    padding: 5px;
+    vertical-align: top;
+}
+
+table.cal-layout tr > td.evtdescr, table.cal-layout tr > td.events {
+    vertical-align: top;
+    padding: 5px;
+    border: 1px solid #444;
+}
+
+.flright {
+    float: right;
+}
+
+.pseudoh3 {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 110%;
+    color: #800;
+    text-align: center;
+}
+
+span.holiday {
+    font-size: 90%;
+    color: green;
+}
+
+.roundedbox {
+    border: 1px solid #036;
+    border-radius: 4px;
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.cal-layout tr > td.evtdescr {
+    text-align: center;
+}
+
+table.cal-layout tr > td.text-nowrap {
+    white-space: nowrap;
+}
+
+table.cal-layout tr > td.events > p, table.cal-layout tr > td.events > ul {
+    margin: 0px;
+    margin-top: 2px;
+}
+
+table.cal-layout tr > td.events > ul {
+    padding: 0px;
+    padding-left: 20px;
+}
