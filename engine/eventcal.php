@@ -386,10 +386,6 @@ class EventCal
                 'where' => XML::safe($where)
             );
             
-            echo "<!--\n";
-            print_r($data);
-            echo "-->\n";
-
             if ($id != -1)
             {
                 // update entry ...
