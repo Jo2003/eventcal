@@ -71,6 +71,6 @@
             'fix' => 'fix',
             'variable' => 'variable',
             'So far no events for this month.' => 'So far no events for this month.',
-            'MarkDown synthax supported.' => 'MarkDown synthax supported.',
+            'MarkDown syntax supported.' => 'MarkDown syntax supported.',
         )
     );
