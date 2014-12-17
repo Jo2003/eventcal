@@ -123,3 +123,7 @@ table.cal-layout tr > td.events > ul {
     padding: 0px;
     padding-left: 20px;
 }
+
+.center {
+    text-align: center;
+}

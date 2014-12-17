@@ -211,7 +211,7 @@ class Calendar extends Frontend
 
             // creating table ...
             $skel = "<table class='month'>\n"
-                   ."<tr>\n<th colspan='7'>";
+                   ."<tr>\n<th class='center' colspan='7'>";
 
             if ($headLink != '')
             {

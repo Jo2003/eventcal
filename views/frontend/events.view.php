@@ -4,7 +4,7 @@ $cont = "<table class='cal-layout'>\n";
 foreach ($months as $month) 
 {
     $cont .= "<tr>\n<td colspan='4'>\n<br />\n"
-            ."<span class='flright'>[<a href='#header' title='".__('up', 'eventcal')."'> <strong>&uarr;</strong> </a>]</span>\n"
+            ."<span class='flright'>[<a href='#top' title='".__('up', 'eventcal')."'> <strong>&uarr;</strong> </a>]</span>\n"
             ."<div class='pseudoh3' id='".$month['name']."'>".__($month['name'], 'eventcal')."</div>\n"
             ."</td>\n</tr>\n<tr>\n"
             ."<th>".__('Date' , 'eventcal')."</th>\n"
