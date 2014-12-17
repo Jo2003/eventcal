@@ -5,7 +5,7 @@
     <plugin_priority>15</plugin_priority>
     <plugin_name>Calendar</plugin_name>
     <plugin_description>Event Calendar plugin for Monstra</plugin_description>
-    <plugin_version>0.1.0</plugin_version>
+    <plugin_version>1.0.0</plugin_version>
     <plugin_author>Jo2003</plugin_author>
     <plugin_author_uri>http://coujo.de</plugin_author_uri>
 </root>
