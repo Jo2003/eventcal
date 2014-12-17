@@ -4,7 +4,7 @@
 Plugin::register( __FILE__,
                 __('Event Calendar!', 'eventcal'),
                 __('A simple event calendar for Monstra', 'eventcal'),
-                '0.1.0',
+                '1.0.0',
                 'Jo2003',
                 'http://www.coujo.de/',
                 'calendar');
