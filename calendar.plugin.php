@@ -163,7 +163,10 @@ class Calendar extends Frontend
                 if (count($ma[$i]['events']) > 0)
                 {
                     $css[] = 'event';
-                    $link = "<a href='calendar?ecal_year=".$year."#id".str_replace("-", "", $ma[$i]['date'])."'>";
+                    $link = "<a href='"
+                            .Option::get('siteurl')
+                            ."/calendar?ecal_year=".$year."#id"
+                            .str_replace("-", "", $ma[$i]['date'])."'>";
                 }
                 
                 if (count($css) > 0)
@@ -330,12 +333,14 @@ class Calendar extends Frontend
      */
     public static function yearChooser($params = array())
     {
-        $y      = Arr::get($params, 'year') ? Arr::get($params, 'year') : date("Y");
-        $years  = EventCal::allYears();
+        $y          = Arr::get($params, 'year') ? Arr::get($params, 'year') : date("Y");
+        $years      = EventCal::allYears();
+        $actionlink = Option::get('siteurl')."/calendar?ecal_year=".$y;
         
         return View::factory("calendar/views/frontend/yearselect")
-                ->assign('years', $years)
-                ->assign('year', $y)
+                ->assign('years'     , $years)
+                ->assign('year'      , $y)
+                ->assign('actionlink', $actionlink)
                 ->render();
     }
 
@@ -343,7 +348,7 @@ class Calendar extends Frontend
      * return page title
      * @return string
      */
-    public static function title() 
+    public static function title()
     {
         return __('Event Calendar!', 'eventcal');
     }

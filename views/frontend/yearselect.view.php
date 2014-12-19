@@ -1,7 +1,7 @@
 <?php
 
 $cont = "<div class='roundedbox'>\n"
-       ."<form method='post' action='calendar?ecal_year=".$year."'>\n"
+       ."<form method='post' action='".$actionlink."'>\n"
        ."<label for='ecal_year'>".__('Choose a year', 'eventcal').":</label>".Html::nbsp()."\n"
        ."<select name='ecal_year' id='ecal_year' onchange='this.form.submit()'>\n";
 
